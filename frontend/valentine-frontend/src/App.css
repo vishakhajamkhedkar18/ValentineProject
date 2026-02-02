@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  height: 100vh;
+  background: linear-gradient(pink, lavender);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yes {
+  background: red;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.no {
+  background: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+/* Full page background */
+.page {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  min-width: 350px;
+  position: relative;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  color: #e11d48;
+  margin-bottom: 30px;
+}
+
+/* Buttons container */
+.buttons {
+  margin-top: 20px;
+}
+
+/* YES button */
+.yes {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  padding: 14px 32px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 75, 43, 0.5);
+  transition: transform 0.2s ease;
+}
+
+.yes:hover {
+  transform: scale(1.1);
+}
+
+/* NO button */
+.no {
+  background: #f3f4f6;
+  padding: 12px 26px;
+  border-radius: 30px;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+}
+
+/* Celebration page */
+.yay {
+  font-size: 36px;
+  color: #ec4899;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.gif {
+  width: 260px;
+  border-radius: 16px;
+  margin: 20px 0;
+}
+
+.love-text {
+  font-size: 22px;
+  color: #dc2626;
+}
